@@ -7,4 +7,10 @@
 
 #container {
   border: 2px solid blue;
+  max-width: 50vw;
+  max-height: 90vh;
+}
+
+footer {
+  border-top: 8px solid #4aaaa5;
 }
