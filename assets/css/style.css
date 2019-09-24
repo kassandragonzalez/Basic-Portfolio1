@@ -1,18 +1,19 @@
 #nav-bar {
-  border: 2px dotted red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid #777777;
+  border-bottom: 1px solid #777777;
 }
 
 .row {
-  border: 2px dotted red;
   margin: 20px;
 }
 
 #container {
-  border: 2px solid blue;
   margin: 50px 400px 50px 400px;
   max-width: 50vw;
   max-height: 90vh;
@@ -31,11 +32,14 @@ h1 {
 
 h2 {
   color: #4aaaa5;
-  border-bottom: 2px solid #777777;
+  border-bottom: 1px solid #777777;
 }
 
 footer {
   border-top: 8px solid #4aaaa5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #nav-bar ul {
