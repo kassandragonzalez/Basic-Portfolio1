@@ -1,8 +1,5 @@
 #nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  margin: -10px -5px -10px -5px;
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
@@ -23,6 +20,12 @@
   max-height: 90vh;
   padding: 20px;
   background-color: white;
+}
+
+#image {
+  border-radius: 50%;
+  width: 50%;
+  height: 50px;
 }
 
 .nav-link {
@@ -96,7 +99,7 @@ button:hover {
 
 footer {
   border-top: 8px solid #4aaaa5;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
