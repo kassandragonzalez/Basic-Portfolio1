@@ -20,7 +20,14 @@
   max-height: 90vh;
   padding: 20px;
   background-color: white;
+  overflow: auto; 
 }
+
+/* #overflow{
+  overflow: scroll; 
+} */
+
+
 
 #bioimage {
   border-radius: 50%;
@@ -35,6 +42,12 @@ img {
   width: 150px;
   height: 150px;
   padding: 30px;
+}
+
+
+
+.card{
+  height: 300px; 
 }
 
 .photo:hover {
@@ -116,6 +129,7 @@ footer {
   border-top: 8px solid #4aaaa5;
   position: fixed;
   bottom: 0;
+  height: 30px;
   width: 100%;
   margin-left: -7px;
   margin-right: -3px;
