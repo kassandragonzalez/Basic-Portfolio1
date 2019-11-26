@@ -133,4 +133,12 @@ footer {
   width: 100%;
   margin-left: -7px;
   margin-right: -3px;
+  display: flex; 
+  justify-content: center;
+}
+
+.fas.fa-heart {
+  color: red; 
+  display: flex; 
+  align-items: center;
 }
